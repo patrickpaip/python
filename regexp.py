@@ -1,3 +1,4 @@
+#OK THIS IS NEW
 '''
 import re
 pattern="this"
@@ -22,11 +23,11 @@ text="abbaaabbbbaaaaa"
 pattern='ab'
 a=re.findall(pattern,text)
 print (len(a))
-'''
+
 import re
 text="abbaaabbbbaaaaa"
 pattern="ab"
 b=re.finditer(pattern,text)
-print (len(b))
 for x in b:
 	print (x.start(),x.end())
+'''
