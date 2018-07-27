@@ -1,4 +1,4 @@
-from multiprocessing import queues
+from multiprocessing import Queue
 import threading
 import time
 
