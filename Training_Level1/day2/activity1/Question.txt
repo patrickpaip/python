@@ -2,7 +2,7 @@
 Create a json file named "settings.json" with the following conditions
 1) "license" An alphanumeric licence key
 2) "username" An user defined username, minimum 6 characters
-3) "time" Time in terms of epoch time
+3) "time" Time in terms of epoch time (Integer Check)
 4) "id" An ID ranging between 0 to 100
 
 Operations:
