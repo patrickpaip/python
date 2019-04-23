@@ -930,7 +930,7 @@ ids1=[x['id'] for x in get(url).json() if (x['email'][-4:]=='.biz')]
 print (ids1)
 
 # Adding Proxy to PIP under Windows
-pip install --user --proxy=https://https.proxy.fmr.com:8000 requests --target .
+pip install --user --proxy=<ProxyIP> requests --target .
 '''
 
 '''
